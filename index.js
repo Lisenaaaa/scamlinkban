@@ -9,7 +9,7 @@ module.exports = class scamLinkBan extends Plugin {
       usage: '{c} [user id or ping]',
       executor: (args) => ({
         send: true,
-        result: `-dban ${args} sending a scam link --days 1`
+        result: `-dban ${args} sending a scam link`
       })
     });
   }
